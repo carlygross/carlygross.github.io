@@ -1,0 +1,145 @@
+
+/* got this from coolors.co - please improve!
+ https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+*/
+
+body
+{
+	display: block;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(0, 82, 4);
+	background-color: rgb(187, 199, 255);
+	margin-top: 8px;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer
+{
+	text-align: center;
+}
+
+h1, h2, h3
+{
+
+	font-family: Cambria, Cochin, Georgia, serif;
+	text-align: center;
+	line-height: 0px;
+}
+
+h1 {
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:link
+{
+	color: rgb(0, 82, 4);
+}
+
+a:visited
+{
+	color: rgb(0, 82, 4);
+}
+
+a:hover
+{
+	text-decoration: overline underline;
+}
+
+figure
+{
+	text-align: center;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+	margin-inline-end: 40px;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: center;
+}
+
+body
+{
+	width: 750px;
+	margin: 0 auto;
+}
+
+table 
+{
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+td, th 
+{
+	border: 1px solid purple;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right 
+{
+	text-align: right;
+}
+
+.center
+{
+	text-align: center;
+}
+
+table tr:nth-child(1) 
+{
+	background-color: rgb(167, 91, 255);
+}
+
+table tr:nth-child(even) td
+{
+	background-color: white;
+	color: cornflowerblue;
+}
+
+button {
+	background-color:purple;
+	color: white;
+}
+
+input {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	border: 2px solid rosybrown;
+	color:rgb(0, 82, 4);
+}
+
+select {
+	background-color:peachpuff;
+}
+
