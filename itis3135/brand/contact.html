@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="scripts/w3.js"></script>
+    <head>
+        <link href="styles/default.css" rel="stylesheet" type="text/css">
+        <title>
+            Chockablock Jumbo Gorilla Enterprises - Contact
+        </title>
+    </head>
+    <body>
+        <div w3-include-HTML="components/nav.html"></div>
+        <div w3-include-HTML="components/header.html"></div>
+    <main>
+        <h2>
+            Have information about endangered gorillas or general inquiries? - Contact Us
+        </h2>
+        
+        <form>
+            <script src="scripts/contact_info.js"></script>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" size="25" required><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" size="25" required><br>
+                <label for="phone">Phone number:</label><br>
+                <input type="tel" id="phone" size="25" placeholder="(123)-456-7890" required><br>
+                <label for="email" >E-mail address:</label><br>
+                <input type="email" id="email" size="25" placeholder="johnnyappleseed@email.com" required><br>
+                <label for="message" >Message:</label><br>
+                <textarea rows="10" cols="60" name="message" placeholder="Enter your message..."></textarea><br>
+
+                <button onclick=display() type="button" id="submit">Submit</button>
+
+                <p id="info"></p>
+
+        </form>
+        
+        <h3>We want to hear from YOU!</h3>   
+        
+        <address>
+            Phone: (123)-456-7890
+            <br>E-mail: chockjumbogorillas@gmail.com
+            <br>3127 W Mescal St
+            <br>Phoenix, Arizona(AZ) 85029
+            <br><a href="https://www.google.com/maps/place/3127+W+Mescal+St,+Phoenix,+AZ+85029/@33.5873004,-112.1287983,17z/data=!3m1!4b1!4m5!3m4!1s0x872b6c13ea77b3e5:0x3128aab316f537e8!8m2!3d33.5873004!4d-112.1266043">Google Maps</a>
+        </address>
+
+    </main>
+    <div w3-include-HTML="components/footer.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+    </body>
+</html>
