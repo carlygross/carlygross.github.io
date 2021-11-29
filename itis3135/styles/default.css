@@ -21,13 +21,13 @@ header, footer
 
 h1, h2, h3
 {
-
 	font-family: Cambria, Cochin, Georgia, serif;
 	text-align: center;
 	line-height: 0px;
 }
 
-h1 {
+h1 
+{
 	display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -37,7 +37,8 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
+h2 
+{
 	display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -115,6 +116,8 @@ td, th
 .center
 {
 	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 
 table tr:nth-child(1) 
@@ -128,18 +131,120 @@ table tr:nth-child(even) td
 	color: cornflowerblue;
 }
 
-button {
+button 
+{
 	background-color:purple;
 	color: white;
+	display:inline-block;
+	position: relative;
 }
 
-input {
+input 
+{
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	border: 2px solid rosybrown;
 	color:rgb(0, 82, 4);
 }
 
-select {
+select 
+{
 	background-color:peachpuff;
+}
+
+title 
+{
+	display: block;
+	text-align: center;
+}
+
+.dropbtn
+{
+	background-color: purple;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown
+{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.20);
+	z-index: 1;
+}
+
+.dropdown-content a
+{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover
+{
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content
+{
+	display: block;
+}
+
+.show
+{
+	display: block;
+}
+
+.initials_logo
+{
+	position: relative;
+	display: inline-block;
+	top: 0px;
+}
+
+.calculator 
+{
+	border-radius: 14px;
+	box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.20);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	max-width: 15em;
+	overflow: hidden;
+}
+
+.calculator__display 
+{
+	background-color: #222222;
+	color: #fff;
+	font-size: 1.7em;
+	padding: 0.5em 0.75em;
+	text-align: right;
+}
+
+.calculator__keys
+{
+	display: grid;
+	background-color: #999;
+	grid-gap: 1px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator__keys > *
+{
+	padding: 0.5em 1.25em;
+	position: relative;
+	text-align: center;
 }
 

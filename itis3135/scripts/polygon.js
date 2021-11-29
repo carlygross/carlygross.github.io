@@ -1,3 +1,8 @@
+// The work submitted here is my work. I have not copied and pasted code into these pages. I have gotten help frpm these sites:
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
+// https://www.w3schools.com/jsref/event_onclick.asp
+// Carly Gross Friday, October 1 4:00pm
+
 // Determines which type of polygon it is
 function getShape(sides)
 {
@@ -51,7 +56,7 @@ function getShape(sides)
 function validateEntry(sides)
 {
     // Prompts user for a nw number if their entry is out of the range
-    while (sides > 10)
+    while (sides > 10 || sides < -10)
     {
         sides = prompt("Invalid entry. The Chockablock Gorilla would like your number...");
     }

@@ -1,0 +1,128 @@
+/*
+                Color scheme: https://coolors.co/2b193d-d3f8e2-ffa69e-9f6ba0-377771
+            */
+            body
+            {
+                background-color: #FFA69E;
+                margin-top: 8px;
+	            margin-left: 75px;
+	            margin-right: 75px;
+                font-size: large;
+                color: #2B193D;
+            }
+            .gorilla
+            {
+                position: relative;
+                display: inline-block;
+                top: 0px;
+                
+            }
+            h1, h2
+            {
+                text-align: center;
+                color: #377771;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: x-large;
+            }
+
+            h3
+            {
+                text-align: left;
+                color: #377771;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: x-large;
+            }
+
+            hr
+            {
+                display: block;
+                margin-top: 0.5em;
+                margin-bottom: 0.5em;
+                margin-left: auto;
+                margin-right: auto;
+                border-style: inset;
+                border-width: 1px;
+            }
+
+            ul
+            {
+                list-style-type: square;
+            }
+
+            .navbar li
+            {
+                float: left;
+            }
+
+            .navbar li a
+            {
+                display: block;
+                color:#2B193D;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .navbar
+            {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background: #D3F8E2;
+            }
+
+            .navbar li a:hover
+            {
+                background-color: #377771;
+            }
+
+            .active
+            {
+                background-color: #377771;
+            }
+
+            #message
+            {
+                height: 200px;
+            }
+
+            .center
+            {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+
+            #gorilla_forest
+            {
+                border-radius: 15px;
+                background: antiquewhite;
+                background-position: center;
+                padding: 20px;
+                width: 600px;
+                height: 450px;
+                position: relative;
+            }
+
+            button
+            {
+                height: 30px;
+                font-size: medium;
+                background-color:antiquewhite;
+                color: #377771;
+                
+            }
+
+            address
+            {
+                background-color: #D3F8E2;
+            }
+
+            header, footer
+            {
+                color:#377771;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
